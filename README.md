@@ -635,7 +635,7 @@ PROMPT_TEMPLATE = """
 
 ## 📧 联系方式
 
-- 项目地址：https://github.com/yourusername/xinbanai5.0
+- 项目地址：https://github.com/LiuStar656/adaptive-agent-architecture/
 - 问题反馈：请通过 GitHub Issues 提交
 
 ---
