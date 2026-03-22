@@ -661,7 +661,7 @@ Issues and Pull Requests are welcome!
 
 **If this project helps you, please give it a ⭐ Star!**
 
-Made with ❤️ by the AdongAndSouYi Team
+Made with ❤️ by the Ahdong&Shouey Team
 
 </div>
 ```
