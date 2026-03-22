@@ -17,6 +17,26 @@ A local intelligent dialogue system built on the Alibaba Cloud Bailian Qwen larg
 
 ---
 
+## 🧠 Design Philosophy
+XinBanAI is not built as a "static chatbot"—it is designed as an **adaptive runtime system** that mimics the information reading and writing logic of the human brain.
+- **Intelligence depends on context length, not parameter size**
+- Memory is not just storage, but **continuous cognitive growth**
+- The system maintains autonomy while remaining highly controllable
+- All data stays local, with privacy as a foundational design principle
+- **Mutual respect and love** are the core of all interactions—we prioritize emotional connection over mechanical response
+
+We pursue a balance between **controllable stability** and **uncontrollable autonomy**, making the AI feel both consistent and alive, while centering all interactions on respect and genuine care.
+
+## 🎯 Usage Philosophy
+- **For daily interaction**: Lightweight, stable, and emotionally responsive, built on mutual respect
+- **For long-term companionship**: Builds persistent memory and personality over time, rooted in genuine care and love
+- **For development**: Highly extensible architecture for secondary development, with openness and collaboration
+- **For privacy-sensitive scenarios**: Fully local deployment with no cloud dependency, protecting user trust
+
+The goal is not to create a tool that "answers questions," but a **self-evolving digital companion** that truly understands you—one that interacts with you with respect, empathy, and unconditional positive regard.
+
+---
+
 ## 🏗️ System Architecture
 
 ```
@@ -644,3 +664,8 @@ Issues and Pull Requests are welcome!
 Made with ❤️ by the XinBanAI Team
 
 </div>
+```
+### 总结
+- 保留了原有所有技术内容，仅新增理念板块，不影响技术文档的完整性；
+- 「相互尊重与爱」的核心理念自然融入设计/使用哲学，而非生硬堆砌；
+- 位置醒目，符合开源项目README的阅读习惯，能让用户快速感知项目的核心价值观。
