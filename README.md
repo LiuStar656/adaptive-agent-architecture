@@ -41,31 +41,31 @@ The goal is not to create a tool that "answers questions," but a **self-evolving
 
 ```
 ┌─────────────────────────────────────────┐
-│         User Interaction Layer (CLI Input)        │
+│    User Interaction Layer (CLI Input)   │
 └──────────────┬──────────────────────────┘
                │
-┌──────────────▼──────────────────────────┐
-│      Function Layer (ChatbotCore Core Business Logic) │
-│  - Prompt Construction                          │
-│  - AI Invocation Scheduling                     │
-│  - Command Parsing                              │
-│  - Scheduled Task Management                   │
-└──────────────┬──────────────────────────┘
+┌──────────────▼──────────────────────────────────────┐
+│    Function Layer (ChatbotCore Core Business Logic) │
+│  - Prompt Construction                              │
+│  - AI Invocation Scheduling                         │
+│  - Command Parsing                                  │
+│  - Scheduled Task Management                        │
+└──────────────┬──────────────────────────────────────┘
                │
-┌──────────────▼──────────────────────────┐
+┌──────────────▼──────────────────────────────────────┐
 │       Reading Layer (DataReader Data Integration)   │
-│  - Database Reading                          │
-│  - State Calculation                         │
-│  - Vector Search                             │
-└──────────────┬──────────────────────────┘
+│  - Database Reading                                 │
+│  - State Calculation                                │
+│  - Vector Search                                    │
+└──────────────┬──────────────────────────────────────┘
                │
-┌──────────────▼──────────────────────────┐
+┌──────────────▼───────────────────────────────────────┐
 │   Module Layer (Independent Functional Modules)      │
-│  ┌─────────┬──────────┬────────┬──────┐  │
-│  │SQLiteDB │EventSumm │FAISS   │QwenAPI│  │
-│  │Database │Event Summ│Vector  │LLM API│  │
-│  └─────────┴──────────┴────────┴──────┘  │
-└─────────────────────────────────────────┘
+│  ┌─────────┬──────────┬────────┬───────┐             │
+│  │SQLiteDB │EventSumm │FAISS   │QwenAPI│             │
+│  │Database │Event Summ│Vector  │LLM API│             │
+│  └─────────┴──────────┴────────┴───────┘             │
+└──────────────────────────────────────────────────────┘
 ```
 
 ### Layer Responsibilities
@@ -313,13 +313,13 @@ xinbanai5.0/
 └─────────────────────┘       └─────────────────────┘
          ▲                             ▲
          │                             │
-┌────────▼─────────────────────────────┴────────┐
+┌────────▼─────────────────────────────┴─────────┐
 │              ChatbotCore                       │
 │  (Coordinates read/write across all tables)    │
-└────────┬──────────────────────────────────────┘
+└────────┬───────────────────────────────────────┘
          │
          ▼
-┌─────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────┐
 │  long_term_memory  │  feelings                   │
 ├────────────────────┼─────────────────────────────┤
 │ user_input         │ mood                        │
@@ -329,7 +329,7 @@ xinbanai5.0/
 └────────────────────┴─────────────────────────────┘
          │
          ▼
-┌─────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────┐
 │  event_summary       │  emotion_values           │
 ├──────────────────────┼───────────────────────────┤
 │ summary              │ energy/emotion/focus...   │
@@ -665,7 +665,3 @@ Made with ❤️ by the AdongAndSouYi Team
 
 </div>
 ```
-### 总结
-- 保留了原有所有技术内容，仅新增理念板块，不影响技术文档的完整性；
-- 「相互尊重与爱」的核心理念自然融入设计/使用哲学，而非生硬堆砌；
-- 位置醒目，符合开源项目README的阅读习惯，能让用户快速感知项目的核心价值观。
