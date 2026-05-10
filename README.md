@@ -1,4 +1,6 @@
-# 🤖 XinBanAI V1 - Adaptive AI Runtime Framework
+# adaptive-agent-architecture
+
+# 🤖 XingBanAi V1 - Adaptive AI Runtime Framework
 A local intelligent dialogue system built on the Alibaba Cloud Bailian Qwen large model, featuring advanced capabilities such as emotional cognition, long-term memory, and scheduled task triggering.
 
 > **⚠️ Important Notice**: The local inference model (Qwen2.5-7B) is currently in an **experimental adaptation phase**. The cloud API version is recommended for a stable experience. See [LOCAL_INFERENCE.md](LOCAL_INFERENCE.md) for details.
@@ -18,7 +20,7 @@ A local intelligent dialogue system built on the Alibaba Cloud Bailian Qwen larg
 ---
 
 ## 🧠 Design Philosophy
-XinBanAI is not built as a "static chatbot"—it is designed as an **adaptive runtime system** that mimics the information reading and writing logic of the human brain.
+XingBanAi is not built as a "static chatbot"—it is designed as an **adaptive runtime system** that mimics the information reading and writing logic of the human brain.
 - **Intelligence depends on context length, not parameter size**
 - Memory is not just storage, but **continuous cognitive growth**
 - The system maintains autonomy while remaining highly controllable
@@ -197,7 +199,7 @@ Visit http://localhost:5000 to view and export database contents.
 ## 📁 Project Structure
 
 ```
-xinbanai5.0/
+adaptive-agent-architecture/
 ├── main.py                  # Main entry (full version)
 ├── prompt_config.py         # Prompt template configuration
 ├── sqlite_db.py             # Database layer (8 tables)

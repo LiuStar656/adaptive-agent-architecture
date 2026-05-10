@@ -1,4 +1,6 @@
-# 🤝 XinBanAI V1 贡献指南
+# 自适应智能体架构
+
+# 🤝 XingBanAi V1 贡献指南
 
 感谢您对本项目的关注！我们欢迎各种形式的贡献，包括代码提交、问题反馈、文档改进等。
 
@@ -84,14 +86,14 @@
 ### 2. 克隆到本地
 
 ```bash
-git clone https://github.com/yourusername/xinbanai5.0.git
-cd xinbanai5.0
+git clone https://github.com/yourusername/adaptive-agent-architecture.git
+cd adaptive-agent-architecture
 ```
 
 ### 3. 配置上游仓库
 
 ```bash
-git remote add upstream https://github.com/original-owner/xinbanai5.0.git
+git remote add upstream https://github.com/original-owner/adaptive-agent-architecture.git
 git fetch upstream
 ```
 
@@ -329,7 +331,7 @@ git push origin feature/your-feature-name
 感谢所有为本项目做出贡献的开发者！
 
 <!-- 这里会显示贡献者列表 -->
-[![Contributors](https://contrib.rocks/image?repo=yourusername/xinbanai5.0)](https://github.com/yourusername/xinbanai5.0/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=yourusername/adaptive-agent-architecture)](https://github.com/yourusername/adaptive-agent-architecture/graphs/contributors)
 
 ---
 
@@ -347,6 +349,6 @@ git push origin feature/your-feature-name
 
 **再次感谢您的贡献！**
 
-Made with ❤️ by XinBanAI Team
+Made with ❤️ by XingBanAi Team
 
 </div>

@@ -1,4 +1,6 @@
-# ✅ XinBanAI V1 部署检查清单
+# 自适应智能体架构
+
+# ✅ XingBanAi V1 部署检查清单
 
 在正式部署或开源发布前，请确保完成以下检查项目。
 
@@ -309,6 +311,6 @@ echo "✅ 自动化检查完成"
 
 **✅ 检查完成，准备发布！**
 
-Made with ❤️ by XinBanAI Team
+Made with ❤️ by XingBanAi Team
 
 </div>

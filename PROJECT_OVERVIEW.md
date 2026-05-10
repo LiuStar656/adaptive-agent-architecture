@@ -1,4 +1,6 @@
-# 📋 XinBanAI V1 项目概览
+# 自适应智能体架构
+
+# 📋 XingBanAi V1 项目概览
 
 > 快速了解本项目的核心信息、架构和使用方式
 
@@ -6,7 +8,7 @@
 
 ## 🎯 项目定位
 
-**XinBanAI V1** 是一个基于阿里云百炼 Qwen 大模型的**本地智能对话系统**，具备情感认知、长期记忆和定时任务等高级功能。
+**XingBanAi V1** 是一个基于阿里云百炼 Qwen 大模型的**本地智能对话系统**，具备情感认知、长期记忆和定时任务等高级功能。
 
 ### 核心理念
 
@@ -331,7 +333,7 @@ graph LR
 
 ## 📞 联系方式
 
-- **GitHub**: https://github.com/yourusername/xinbanai5.0
+- **GitHub**: https://github.com/yourusername/adaptive-agent-architecture
 - **Issues**: 问题和 Bug 反馈
 - **Discussion**: 一般性问题讨论
 
@@ -350,6 +352,6 @@ graph LR
 
 **🚀 开始您的智能对话之旅！**
 
-Made with ❤️ by XinBanAI Team
+Made with ❤️ by XingBanAi Team
 
 </div>

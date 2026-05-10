@@ -1,3 +1,5 @@
+# 自适应智能体架构
+
 # 🧠 本地推理模型适配指南
 
 ## ⚠️ 重要提示
@@ -10,7 +12,7 @@
 
 ## 📋 当前状态
 
-### ✅ 已实现功能（XinBanAI V1）
+### ✅ 已实现功能（XingBanAi V1）
 - Qwen2.5-7B-4bit 量化模型支持（GGUF 格式）
 - llama-cpp-python 推理引擎集成
 - CPU 模式运行（无需 GPU）
@@ -55,7 +57,7 @@
 将下载的模型文件放入项目目录：
 
 ```
-xinbanai5.0/
+adaptive-agent-architecture/
 ├── models/
 │   └── qwen2.5-7b-instruct-q4_k_m.gguf
 ```
@@ -304,6 +306,6 @@ xcode-select --install
 
 **⚠️ 再次提醒：本地推理仍处于适配阶段，生产环境建议使用云端 API**
 
-Made with ❤️ by XinBanAI Team
+Made with ❤️ by XingBanAi Team
 
 </div>

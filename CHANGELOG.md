@@ -1,3 +1,5 @@
+# 自适应智能体架构
+
 # 📝 更新日志 (Changelog)
 
 本文件记录项目的所有重要变更。
@@ -246,6 +248,6 @@
 
 **持续改进，追求卓越！**
 
-Made with ❤️ by XinBanAI Team
+Made with ❤️ by XingBanAi Team
 
 </div>

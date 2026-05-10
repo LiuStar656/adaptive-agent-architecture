@@ -1,6 +1,8 @@
-# 🚀 XinBanAI V1 快速开始指南
+# 自适应智能体架构
 
-欢迎使用 XinBanAI 智能对话系统！本指南将帮助您在 5 分钟内完成安装和首次运行。
+# 🚀 XingBanAi V1 快速开始指南
+
+欢迎使用 XingBanAi 智能对话系统！本指南将帮助您在 5 分钟内完成安装和首次运行。
 
 ---
 
@@ -24,8 +26,8 @@ python --version
 ### 步骤 2: 克隆项目（如果是 Git 用户）
 
 ```bash
-git clone https://github.com/yourusername/xinbanai5.0.git
-cd xinbanai5.0
+git clone https://github.com/yourusername/adaptive-agent-architecture.git
+cd adaptive-agent-architecture
 ```
 
 或直接下载 ZIP 文件并解压。
@@ -74,7 +76,7 @@ python main.py
 
 ```
 ==========================================
-欢迎使用 XinBanAI 智能对话系统！
+欢迎使用 XingBanAi 智能对话系统！
 请输入阿里云 DashScope API Key：sk-xxxxx
 
 ✅ API Key 验证成功
@@ -221,10 +223,10 @@ python main.py
 
 <div align="center">
 
-**🎉 恭喜！您已经成功安装 XinBanAI V1！**
+**🎉 恭喜！您已经成功安装 XingBanAi V1！**
 
 开始您的智能对话之旅吧～
 
-Made with ❤️ by XinBanAI Team
+Made with ❤️ by XingBanAi Team
 
 </div>
