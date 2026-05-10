@@ -1,5 +1,13 @@
 # adaptive-agent-architecture
 
+<div align="center">
+
+[🇺🇸 English](README.md) | [🇨🇳 中文](README_CN.md)
+
+</div>
+
+---
+
 # 🤖 XingBanAi V1 - Adaptive AI Runtime Framework
 A local intelligent dialogue system built on the Alibaba Cloud Bailian Qwen large model, featuring advanced capabilities such as emotional cognition, long-term memory, and scheduled task triggering.
 

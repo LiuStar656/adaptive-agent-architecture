@@ -1,5 +1,13 @@
 # 自适应智能体架构
 
+<div align="center">
+
+[🇺🇸 English](README.md) | [🇨🇳 中文](README_CN.md)
+
+</div>
+
+---
+
 # 🤖 XingBanAi V1 - 自适应 AI 运行时框架
 基于阿里云百炼 Qwen 大模型构建的本地智能对话系统，具备情感认知、长期记忆和定时任务触发等高级功能。
 
